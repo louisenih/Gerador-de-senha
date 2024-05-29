@@ -8,16 +8,8 @@
     flex-direction: column;
 }
 
-.cabecalho-img{
-    display: flex;
-    justify-content: center;
-  
-}
-
-.cabecalho-texto{
-    display: flex;
-    justify-content: center;
-  
+.cadeado{
+    width: 50px;
 }
 
 body{
