@@ -3,6 +3,12 @@
     --cor-de-fundo:lightblue;
 }
 
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 body{
     background-color: var(--cor-de-fundo);
 }
