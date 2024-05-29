@@ -14,7 +14,7 @@
     width: 50px;
     display: flex;
     justify-content: center;
-    margin-left: 500px;
+    align-items: center;
 }
 
 body{
