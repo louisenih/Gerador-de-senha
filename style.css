@@ -3,6 +3,11 @@
     --cor-de-fundo:lightblue;
 }
 
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+}
+
 .cabecalho-img{
     display: flex;
     justify-content: center;
