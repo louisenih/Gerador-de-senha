@@ -1,6 +1,7 @@
 
 :root{
     --cor-de-fundo:lightblue;
+    --cor-df-2:rgb(125, 209, 236);
 }
 
 .cabecalho{
@@ -9,13 +10,10 @@
 
 .cadeado{
     width: 50px;
-   
- 
     
 }
 
 body{
     background-color: var(--cor-de-fundo);
-    
     text-align: center;
 }
