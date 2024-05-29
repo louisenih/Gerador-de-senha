@@ -19,5 +19,6 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    align-items: center;
+    display: flex;
+    text-align: center;
 }
