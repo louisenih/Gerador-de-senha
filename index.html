@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilo.css">
+</head>
+    <title>GERADOR DE SENHA</title>
+    <div class="sigma">
+        <img class="img1" src="image-removebg-preview.png" alt="cadeado">
+    </div>
 </head>
 <body>
-
-    <div class="cabecalho">
-    <img class="cadeado"  src="image-removebg-preview.png" alt="">
-    <h1> Gerador de senhas </h1>
-    <h2> Criptografia de ponta</h2>
+    <h1 class="texto1">Gerador de senha</h1>
+    <h2 class="texto1">Crie uma senha segura</h2>
+    <div class="conteudo-senha">
+        <br><br><br>
+        <label class="label1" for="senha">Senha:</label>
+        <input class="input-senha" type="text" name="senha" id="campo-senha">
     </div>
-    
+    <br><br>
+    <div class="config-senha">
+     <br><h2 class="texto4">Personalize sua senha</h2>
+        <div class="column left">    
+  <h3 class="texto3">Numero de caracteres</h3>
+  </div>
+  <div class="column middle">
+  <h3 class="texto3">Caracteristicas da senha</h3>
+  <br>
+  <input  type="checkbox" id="letras1" name="letras1">
+  <label class="label" for="letras1">Letras maiusculas</label><br><br>
+  <input type="checkbox" id="letras2" name="letras2">
+  <label class="label" for="letras2">Letras minusculas</label><br><br>
+  <input type="checkbox" id="numeros" name="numeros">
+  <label class="label" for="numeros">Numeros</label><br><br>
+  <input type="checkbox" id="simbolos" name="simbolos">
+  <label class="label" for="simbolos">Simbolos</label>
+  </div>
+  <div class="column right">
+<h4 class="texto3">Força da senha</h4>
+  </div>
+  </div>
 </body>
 </html>
