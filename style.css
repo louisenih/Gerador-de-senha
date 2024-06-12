@@ -40,7 +40,7 @@ border-bottom: solid rgb(0, 236, 165);
 }
 .config-senha
 {
-background-color: rgba(0, 39, 83, 1);
+background-color: rgb(0, 31, 16);
 width: 1200px;
 height: 350px;
 margin: auto;
@@ -90,8 +90,8 @@ align-items: center;
   }
   .input-senha
   {
-background-color: rgba(0, 39, 83, 1);
-border-color: rgba(0, 39, 83, 1);
+background-color: rgb(0, 133, 77);
+border-color: rgb(7, 211, 143);
 color: white;
 width: 500px;
 
