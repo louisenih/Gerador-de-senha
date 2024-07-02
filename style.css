@@ -68,7 +68,11 @@ cursor: pointer;
 {
 color: white;
 background-color: rgb(2, 155, 104);
-border-bottom: rgb(7, 211, 143);;
+border-bottom: rgb(7, 211, 143);
+width: 700px;
+height: 150px;
+margin: auto;
+border-radius: 6px;
   }
 
   
