@@ -5,11 +5,13 @@
 height: 50px;
 width: 45px;
 }
+
 body
 {
 background-color: rgb(1, 97, 49);
 text-align: center;
 }
+
 .texto1
 {
     font-family: "REM", sans-serif;
@@ -18,11 +20,13 @@ text-align: center;
     font-style: normal;
     color: whitesmoke;
 }
+
 .label1
 {
 color: white;
 font-size: xx-large;
 }
+
 .conteudo-senha
 {
 background-color:rgb(0, 138, 92);
@@ -32,24 +36,14 @@ margin: auto;
 border-radius: 6px;
 border-bottom: solid rgb(0, 236, 165);
 }
+
 .label
 {
     color: white;
     font-size: x-large;
     
 }
-.config-senha
-{
-background-color: rgb(3, 167, 112);
-width: 1200px;
-height: 350px;
-margin: auto;
-border-radius: 6px;
-}
-.check
-{
-align-items: center;
-}
+
 .texto2
 {
     font-family: "REM", sans-serif;
@@ -59,36 +53,8 @@ align-items: center;
     color: whitesmoke;
     font-size: xx-large;
 }
-.column {
-    float: left;
-  }
-  
-  .left, .right {
-    width: 25%;
-  }
-  
-  .middle {
-    width: 50%;
-  }
-  .texto3
-  {
-    font-family: "REM", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    color: whitesmoke;
-    font-size: large;
-  }
-  .texto4{
-    font-family: "REM", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    color: whitesmoke;
-    font-size: x-large;
-    text-align: left;
-  }
-  .input-senha
+
+ .input-senha
   {
 background-color: rgb(0, 133, 77);
 border-color: rgb(7, 211, 143);
