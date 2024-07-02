@@ -46,7 +46,7 @@ border-bottom: solid rgb(0, 236, 165);
 
 .texto2
 {
-    font-family: "REM", sans-serif;
+    font-family: "REM", sans-serif;G
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
@@ -66,8 +66,8 @@ cursor: pointer;
 
 .parametro
 {
-background-color: rgb(0, 138, 92);
-
+background-color: rgb(2, 155, 104);
+border-bottom: rgb(7, 211, 143);;
   }
 
   
