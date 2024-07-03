@@ -28,21 +28,21 @@ body {
 }
 
 .titulo{
-    font-family: "Jacquard 12", system-ui;
+    font-family: "Tiny5", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
     text-align: center;
 } 
 .subtitulo{
-    font-family: "Jacquard 12", system-ui;
+    font-family: "Tiny5", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 40px; 
     text-align: center;
 }
 .texto{
-    font-family: "Lora", serif;
+    font-family: "Noto Sans Japanese", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -61,7 +61,7 @@ body {
     background-color: var(--fundo-senha);
     border: none;
     color: var(--branco);
-    font-family: "Lora", serif;
+    font-family: "Noto Sans Japanese", serif;
     font-size: 40px;
     width: 70%;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .parametro-titulo{
-    font-family: "Lora", serif;
+    font-family: "Noto Sans Japanese", serif;
     font-size: 38px;
 }
 
