@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root{
-    --borda: #000000;
-    --fundo-texto: #00850d;
-    --fundo-senha: #00850d;
+    --borda: #ffffff;
+    --fundo-texto: #0071ce;
+    --fundo-senha: #025192;
     --branco: #ffffff;
 }
 
