@@ -1,41 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">    
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-</head>
-    <title>GERADOR DE SENHA</title>
-    <div class="sigma">
-        <img class="img1" src="./cadeado" alt="cadeado">
-    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">   
 </head>
 <body>
-    <h1 class="texto1">Gerador de senha</h1>
-    <h2 class="texto1">Crie uma senha segura</h2>
-                <div class="conteudo-senha">
-        <br><br><br>
-        <label class="label1" for="senha">Senha:</label>
-        <input class="input-senha" type="text" name="senha" id="campo-senha">
-             </div>
-    <br><br>
- 
-
-                <div class="parametro">
-        <h3 class="parametro-titulo"> oioi</h3
-                </div>
-
-                <div class="parametro coluna_senha">
-        <h4 class="parametro-senha-titulo"> oioi</h4>
-
-                </div>
-
-
-  </div>
+    <div class="conteudo-titulo">
+        <img src="samir lindo (1).png" alt="cadeado">
+        <h1 class="titulo">Gerador de Senha G4LV4N</h1>
+        <p class="subtitulo">Gere instantâneamente uma senha totalmente aleatória</p>
+    </div>
+</div>
+<div class="conteudo-senha">
+    <label for="senha">Senha</label>
+    <input name="senha"="text" id="campo-senha">
+</div>
+<div class="parametro">
+    <h3 class="parametro-titulo">Personalize sua senha</h3>
+    <div class="parametro-coluna__senha">
+        <div class="parametro-senha">
+            <h4 class="parametro-senha__titulo">Números de caracteres</h4>
+            <div class="parametro-senha-botoes">
+                <button class="parametro-senha__botao">-</button>
+                <p class="parametro-senha__texto">12</p>
+                <button class="parametro-senha__botao">+</button>
+            </div>
+        </div>
+        <div class="parametro-senha">
+            <h4 class="parametro-senha__titulo">Caracteristicas da senha</h4>
+            <div class="parametro-senha-checkbox">
+                <input name="maiusculo"  type="checkbox" class="checkbox">
+                <label for="maiusculo">Letras maiúsculas</label>
+            </div>
+            <div class="parametro-senha-checkbox">
+                <input name="minusculo"  type="checkbox" class="checkbox">
+                <label for="minusculo">Letras minúsculas</label>
+            </div>
+            <div class="parametro-senha-checkbox">
+                <input name="numero"  type="checkbox" class="checkbox">
+                <label for="numero">Numeros</label>
+            </div>
+            <div class="parametro-senha-checkbox">
+                <input name="simbolo"  type="checkbox" class="checkbox">
+                <label for="simbolo">Simbolos</label>
+            </div>
+        </div>
+        <div class="parametro-senha">
+            <h4 class="parametro-senha__titulo">Força da senha</h4>
+            <div class="barra"></div>
+            <div class="forca fraca"></div>
+            <div class="parametro-senha-textos">
+                <p>Fraca</p>
+                <p>Média</p>
+                <p>Forte</p>
+            </div>
+            <p class="entropia"></p>
+        </div>
+    </div>
+</div>
+</section>
+<script src="main.js"></script>
 </body>
+
 </html>
