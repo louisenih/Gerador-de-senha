@@ -8,6 +8,10 @@
     --branco: #ffffff;
 }
 
+.cadeado{
+      width: 50%;
+
+}
 body {
     background-color: #025809;
     padding: 56px;
